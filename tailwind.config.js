@@ -7,6 +7,7 @@ export default {
         actor: ["Actor", "serif"],
         nobile: ["Nobile", "serif"],
         roboto: ["Roboto", "serif"],
+        inter: ["Inter", "serif"],
         "tilt-warp": ["Tilt Warp", "serif"],
       },
       dropShadow: {
