@@ -1,6 +1,6 @@
 const Banner2 = () => {
   return (
-    <div className="w-full h-[100vh] bg-[linear-gradient(to_bottom,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/images/banner2.jpg')] bg-no-repeat bg-cover relative flex justify-center items-end p-[5%]">
+    <div className="w-full h-[140vh] lg:h-[100vh] bg-[linear-gradient(to_bottom,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/images/banner2.jpg')] bg-no-repeat bg-cover relative flex justify-center items-end p-[5%]">
       <nav className="w-full p-10 flex absolute top-0">
         <div className="flex gap-5 items-center justify-center">
           <img src="/icons/title.png" className="h-[60px] w-[60px]" />
@@ -11,7 +11,7 @@ const Banner2 = () => {
       </nav>
       <section className="w-full flex items-end justify-between">
         <div>
-          <h1 className="text-6xl max-w-[700px] text-white font-tilt-warp">
+          <h1 className="text-4xl md:text-6xl max-w-[700px] text-white font-tilt-warp">
             Wij bieden een duurzame en passende oplossing voor uw klus. 
           </h1>
           <p className="max-w-[650px] text-white text-lg mt-5 font-actor">

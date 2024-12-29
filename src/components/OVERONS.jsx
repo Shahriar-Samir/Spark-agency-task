@@ -1,12 +1,12 @@
 const OVERONS = () => {
   return (
-    <section>
-      <h1 className="font-bold text-[300px] font-nobile text-center">
+    <section className="mt-20">
+      <h1 className="font-bold text-6xl lg:text-[300px] font-nobile text-center">
         OVER ONS
       </h1>
-      <section>
-        <div className="flex gap-16 px-10 w-full max-w-[1660px] mx-auto">
-          <div className="w-1/2">
+      <section className="m-5">
+        <div className="flex flex-col lg:flex-row gap-16 px-10 w-full max-w-[1660px] mx-auto">
+          <div className="w-full lg:w-1/2">
             <p className="font-actor text-lg">
               Wij zijn gespecialiseerd in dak reparaties, -renovaties en
               -onderhoud. Dak lekkage? Spoedaanvragen? Dan bent u bij ons aan
@@ -26,17 +26,29 @@ const OVERONS = () => {
               verder te helpen. Dakonderhoud GMK is uw specialist voor alle
               klussen in en rondom uw huis.
             </p>
-            <div className="flex gap-10 items-center mt-5">
-              <img src="/icons/icon1.png" alt="Icon 1" className="w-[150px]" />
-              <img src="/icons/icon2.png" alt="Icon 2" className="w-[70px]" />
-              <img src="/icons/icon3.png" alt="Icon 3" className="w-[150px]" />
+            <div className="flex gap-10 items-center justify-center md:justify-start mt-5">
+              <img
+                src="/icons/icon1.png"
+                alt="Icon 1"
+                className="w-[70px] md:w-[150px]"
+              />
+              <img
+                src="/icons/icon2.png"
+                alt="Icon 2"
+                className="w-[50px] md:w-[70px]"
+              />
+              <img
+                src="/icons/icon3.png"
+                alt="Icon 3"
+                className="w-[70px] md:w-[150px]"
+              />
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="w-full lg:w-1/2">
             <img
               src="/images/multipics.png"
               alt="Multiple Pics"
-              className="w-full max-w-[700px]"
+              className="w-full max-w-[700px] mx-auto"
             />
           </div>
         </div>
@@ -56,7 +68,7 @@ const OVERONS = () => {
           materialen en technieken voor een langdurige bescherming.
         </p>
       </section>
-      <h1 className="font-bold text-[270px] font-nobile text-center mt-10">
+      <h1 className="font-bold text-6xl lg:text-[270px] font-nobile text-center mt-10">
         ONS WERK
       </h1>
     </section>

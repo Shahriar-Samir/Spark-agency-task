@@ -10,7 +10,7 @@ const Banner8 = () => {
         </div>
       </nav>
       <section className="w-full h-full flex flex-col lg:flex-row items-end justify- gap-10">
-        <div className="w-full lg:w-3/4 h-[100vh] md:h-full bg-[linear-gradient(to_bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url('/images/banner8.jpg')] bg-no-repeat bg-cover flex justify-center items-center text-white">
+        <div className="w-full lg:w-3/4 h-full bg-[linear-gradient(to_bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url('/images/banner8.jpg')] bg-no-repeat bg-cover flex justify-center items-center text-white">
           <div className=" w-9/12 max-w-[800px] mx-auto">
             <h1 className="text-xl font-semibold">Label</h1>
             <h5 className="mt-2">Description</h5>
@@ -18,7 +18,7 @@ const Banner8 = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 h-full flex justify-center items-center flex-col">
-          <h1 className="text-5xl font-tilt-warp">
+          <h1 className="text-5xl font-tilt-warp w-11/12 mx-auto text-center lg:text-start">
             Vraag hieronder <br />
             een offerte op
           </h1>
