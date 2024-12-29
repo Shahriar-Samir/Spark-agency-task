@@ -8,6 +8,7 @@ export default {
         nobile: ["Nobile", "serif"],
         roboto: ["Roboto", "serif"],
         inter: ["Inter", "serif"],
+        cormorant: ["Tilt Warp", "serif"],
         "tilt-warp": ["Tilt Warp", "serif"],
       },
       dropShadow: {
