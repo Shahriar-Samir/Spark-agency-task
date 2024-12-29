@@ -17,7 +17,7 @@ const Banner5 = () => {
           Spoed? Bel 020 1234567 of klik hier | Chat
         </h1>
       </nav>
-      <section className="w-full flex flex-col justify-center md:flex-row items-center md:gap-16 mt-32 md:mt-0">
+      <section className="w-full flex flex-col justify-center md:flex-row items-center md:gap-16 mt-32 xl:mt-0">
         <div className="flex md:w-1/2 ">
           <h1 className="text-4xl md:text-6xl max-w-[700px] text-white font-tilt-warp ">
             Wij bieden een duurzame en passende oplossing voor uw klus. 
