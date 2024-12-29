@@ -1,20 +1,24 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import Banner1 from "./banner1";
-import Banner2 from "./banner2";
-import Banner3 from "./banner3";
-import Banner4 from "./banner4";
-import Banner5 from "./banner5";
-import Banner6 from "./banner6";
-import Banner7 from "./banner7";
-import Banner8 from "./banner8";
+import { Autoplay } from "swiper/modules";
+import Banner1 from "./banners/banner1";
+import Banner2 from "./banners/banner2";
+import Banner3 from "./banners/banner3";
+import Banner4 from "./banners/banner4";
+import Banner5 from "./banners/banner5";
+import Banner6 from "./banners/banner6";
+import Banner7 from "./banners/banner7";
+import Banner8 from "./banners/banner8";
 
 const Header = () => {
   return (
-    <header className="">
+    <header>
       <Swiper
         slidesPerView={1}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        modules={[Autoplay]}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
       >
         <SwiperSlide>
           <Banner1 />
@@ -40,7 +44,6 @@ const Header = () => {
         <SwiperSlide>
           <Banner8 />
         </SwiperSlide>
-        ...
       </Swiper>
     </header>
   );
